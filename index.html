@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stock Inventory System</title>
+        <link type="image/png" sizes="16x16" rel="icon" href="icons8-laptop-16.png">
+        <style>
+            .card{
+                padding:60px 40px 50px 40px;
+                background:rgb(50,50,50) ;
+                border-radius: 10px;
+            }
+            #name{
+                width: 200px;
+                border:none;
+                background:transparent;
+                border-bottom: 1px solid white;
+                padding:6px;
+                margin-bottom: 20px;
+                color:white;
+                outline: none;
+            }
+            #button{
+                padding:10px 20px;
+                border-radius:20px;
+                border: none;
+                outline: none;
+                background:dodgerblue;
+                color:white;
+                margin-top: 20px;
+                margin-left: 60px;
+            }
+            .container{
+                top:50%;
+                left:50%;
+                position:absolute;
+                transform:translate(-50%,-50%);
+            }
+            #button:hover{
+                background-color: rgb(63, 63, 239);
+                color:black;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: dodgerblue; text-align: center;">Stock Inventory System</h1>
+        <hr>
+        <h2 style="text-align: center;">WELCOME !</h2>
+        <form action="#" method="post">
+        <div class="container">
+            <div class="card">
+                <input type="text" placeholder="Username"  name="username" id="name" required><br>
+                <input type="password" placeholder="Password"  name="password" id="name" required ><br>
+                <input type="submit" value="Login" id="button">
+            </div>
+        </div>
+        </form>
+    </body>
+</html>
